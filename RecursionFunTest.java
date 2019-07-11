@@ -205,7 +205,7 @@ public class RecursionFunTest {
   }
 
   @Test
-  public void testDuplicateAllWhenThreeAtBegining() {
+	public void testDuplicateAllWhenThreeAtBegining() {
     LinkedList<String> list = new LinkedList<String>();
     list.addLast("B");
     list.addLast("B");
@@ -220,9 +220,9 @@ public class RecursionFunTest {
     assertEquals("B", list.get(2));
     assertEquals("B", list.get(3));
     assertEquals("B", list.get(4));
-//    assertEquals("B", list.get(5));
-//    assertEquals("X", list.get(6));
-//    assertEquals("A", list.get(7));
+    assertEquals("B", list.get(5));
+    assertEquals("X", list.get(6));
+    assertEquals("A", list.get(7));
  }
 
   @Test
